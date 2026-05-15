@@ -2,7 +2,7 @@
 
 A pet-project built with Expo and Supabase that combines chat, AI text generation, and image generation in a single mobile experience.
 
-[!img](https://i.snipboard.io/QeOTfs.jpg)
+![img](</assets/Frame%201%20(1).png>)
 
 ## Features
 
