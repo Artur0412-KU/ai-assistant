@@ -1,53 +1,129 @@
-# AI Chat App
+# AI Assistant Mobile App
 
-A pet-project built with Expo and Supabase that combines chat, AI text generation, and image generation in a single mobile experience.
+AI-powered mobile assistant built with React Native.  
+The app supports intelligent conversations, image generation, authentication, and persistent chat history.
 
-![img](</assets/Frame%201%20(1).png>)
+![img](https://i.snipboard.io/QeOTfs.jpg)
 
-## Features
+## ✨ Features
 
-- Authentication with Supabase Auth
-- Persisted chat sessions synced between local storage and Supabase
-- AI-powered chat responses using a text model
-- Image generation support for visual prompts
-- Share generated images from the chat interface
-- Dark mode support with theme toggling
-- Custom JetBrains Mono font styling across the app
+- 🤖 AI chat assistant
+- 🎨 AI image generation
+- 🔐 User authentication
+- 💬 Persistent chat history
+- 📱 Modern mobile UI
+- ⚡ Fast and responsive experience
+- 🌙 Dark mode support
+- 🔄 Real-time AI responses
 
-## Architecture
+---
 
-- **Expo / React Native** for the mobile app UI
-- **Supabase** for user auth, chat conversation storage, and message persistence
-- **AsyncStorage** for local cache and offline-first behavior
-- **NativeWind** for Tailwind-style styling in React Native
-- **Gemini API Key** for generating responses and images
+## 📸 Screenshots
 
-## Project Structure
+| Chat                                                       | Image Generation                                         | History                                                  |
+| ---------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| <img src="https://i.snipboard.io/hXMNjb.jpg" width="80%" > | <img src="https://snipboard.io/6mbF9H.jpg" width="65%" > | <img src="https://snipboard.io/6bjXJ8.jpg" width="70%" > |
 
-- `App.tsx` – app entry point and global font loading
-- `AppNavigator.tsx` – navigation stack and drawer setup
-- `pages/` – main screens including `ChatScreen`, `Home`, `LogIn`, and `Register`
-- `components/` – reusable UI pieces like `ThemeToggle` and `ShareImageButton`
-- `services/` – API and storage logic for AI and chat persistence
-- `data/supabase.ts` – Supabase client configuration
+---
 
-## Getting started
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the Expo app:
-   ```bash
-   npm run start
-   ```
-3. Open in Expo Go or run on an emulator/device.
+### Mobile
 
-## Notes
+- React Native
+- TypeScript
+- Expo
+- Nativewind
 
-- Make sure Supabase is configured with the correct URL and public key in `data/supabase.ts`
-- Supabase tables include `conversations` and `messages` for chat syncing
-- RLS policies should allow authenticated users to insert/select their own conversations and messages
+### Backend / Services
+
+- Gemini API
+- Firebase / Supabase (replace with your actual service)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Artur0412-KU/ai-assistant.git
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure enviroment variables
+
+```bash
+EXPO_PUBLIC_GEMINI_API_KEY = your_gemini_api_key
+SUPABASE_URL = your_supabase_url
+SUPABASE_PUBLISHABLE_KEY = your_supabase_publishable_key
+```
+
+### 4. Start the app
+
+```bash
+npx expo start
+```
+
+---
+
+## 🧠 AI Features
+
+### Chat Assistant
+
+- Natural AI conversations
+- Context-aware responses
+- Multi-message conversations
+
+### Image Generation
+
+- Generate images from prompts
+- Fast AI image rendering
+- Mobile-friendly workflow
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/           # Images, fonts, icons
+├── components/       # Reusable UI components
+│   └── Buttons/
+├── contexts/         # React contexts
+├── data/             # Static/local data
+├── hooks/            # Custom React hooks
+├── navigation/       # App navigation setup
+├── pages/            # App screens/pages
+├── services/
+│   ├── ai/           # AI integrations
+│   ├── chat/         # Chat logic/services
+│   └── parse/        # Parsing utilities
+├── utils/
+│   └── auth/         # Authentication helpers
+```
+
+---
+
+### 🔥 Future Improvements
+
+- Voice assistant support
+- AI memory
+- Push notifications
+- Profile settings
+- Better prompt customization
+- Multi-model support
+
+### 👨‍💻 Author
+
+Developed with ❤️ by Artur Prylutskiy
+
+---
 
 ## License
 
