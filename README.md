@@ -3,7 +3,7 @@
 AI-powered mobile assistant built with React Native.  
 The app supports intelligent conversations, image generation, authentication, and persistent chat history.
 
-![img](https://i.snipboard.io/QeOTfs.jpg)
+![img](<assets/Frame%201%20(1).png>)
 
 ## ✨ Features
 
@@ -20,9 +20,9 @@ The app supports intelligent conversations, image generation, authentication, an
 
 ## 📸 Screenshots
 
-| Chat                                                       | Image Generation                                         | History                                                  |
-| ---------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
-| <img src="https://i.snipboard.io/hXMNjb.jpg" width="80%" > | <img src="https://snipboard.io/6mbF9H.jpg" width="65%" > | <img src="https://snipboard.io/6bjXJ8.jpg" width="70%" > |
+| Chat                                      | Image Generation                                    | History                                         |
+| ----------------------------------------- | --------------------------------------------------- | ----------------------------------------------- |
+| <img src="/assets/chat.png" width="80%" > | <img src="/assets/generate-image.png" width="65%" > | <img src="/assets/chats-list.png" width="70%" > |
 
 ---
 
