@@ -1,4 +1,4 @@
-# My AI Chat App
+# AI Chat App
 
 A pet-project built with Expo and Supabase that combines chat, AI text generation, and image generation in a single mobile experience.
 
